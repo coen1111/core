@@ -24,6 +24,7 @@ classifiers = [
 requires-python = ">=3.12.0"
 dependencies    = [
     "aiodns==3.2.0",
+    "ninja>=1.8.2",
     # Integrations may depend on hassio integration without listing it to
     # change behavior based on presence of supervisor
     "aiohasupervisor==0.1.0b1",
